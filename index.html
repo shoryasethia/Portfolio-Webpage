@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shorya Sethia</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="profile-info">
+
+          <div class="profile-img">
+            <img src="portfolio/profile-pic.jpg">
+          </div>
+
+          <div class="profile-name">
+            <p class="shorya">SHORYA  SETHIA</p>
+          </div>
+
+        </div>
+        <nav>
+          <ul>
+            <li><a class="join-button" href="https://instagram.com/sethia_shorya?igshid=ZGUzMzM3NWJiOQ==">Instagram</a></li>
+            <li><a class="join-button" href="https://www.linkedin.com/in/shorya-sethia-680b24250">Linkedin</a></li>
+            <li><a class="join-button" href="mailto:shoryasethia4may@gmail.com">Mail </a></li>
+            <li><a class="join-button" href="https://twitter.com/shorya_sethia?t=yeyDOJixdOkscx3Ge0w41A&s=08">Twitter </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="about">
+          <h2>About</h2>        
+          <p>
+            Welcome to my portfolio! I am a highly driven and ambitious individual who is passionate about technology and innovation. As a student at IIT Bombay, I have honed my skills in various fields, including coding and gaming, and have won several medals at national and international Olympiads.<br>
+            <br>My expertise lies in the programming language C++, which I have utilized to complete a project on management and product design in IITB. Additionally, I have a strong interest in game development techniques and enjoy exploring different programming languages to push the boundaries of what is possible in the field of technology.
+            <span id="moreText" style="display:none">
+              <br>As a dynamic and curious individual, I am constantly seeking out new challenges and opportunities to broaden my horizons. I am always on the lookout for collaborations on projects that enable me to apply my skills and knowledge to push the envelope of what is possible in the world of technology.<br>
+              <br>If you share my passion for technology and innovation and are looking for a driven and ambitious partner to collaborate with, I would be delighted to hear from you. Feel free to browse my portfolio to learn more about my skills and expertise, and please do not hesitate to contact me if you would like to discuss any exciting opportunities further.
+            </span>
+            <button id="readMoreButton" onclick="toggleReadMore()">Read more</button>
+          </p>
+          
+          <script>
+            function toggleReadMore() {
+              var moreText = document.getElementById("moreText");
+              var readMoreButton = document.getElementById("readMoreButton");
+              if (moreText.style.display === "none") {
+                moreText.style.display = "block";
+                readMoreButton.innerHTML = "Read less";
+              } else {
+                moreText.style.display = "none";
+                readMoreButton.innerHTML = "Read more";
+              }
+            }
+          </script>
+          
+        
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>Management</li>
+            <li>Product Design
+              <a class="pd" href="portfolio/AutoCad 360.mp4" target="_blank">&#x2197</a>
+              <a class="pd" href="portfolio/product-design.jpg" target="_blank">&#x2197</a>
+            </li>
+          </ul>
+        </section>
+  
+        <section class="experience">
+          <h2> Experience</h2>
+          <ul>
+            <li>
+              <h3><i><b>Organizer</b></i></h3>
+              <h4><a class="link" href="https://techfest.org/">TechFest</a> & <a class="link" href="https://moodi.org/"> Mood Indigo</a></h4>
+              <ul>
+                <a>Collaborated with marketing team</a>
+                <a>Part of mood indigo services team</a>
+              </ul>
+            </li>
+            <li>
+              <h3><i><b>C++ Coder</b></i></h3>
+              <h4><a class="link" href ="https://www.hackerrank.com/">HackerRank</a> & <a class="link" href ="https://www.codechef.com/">CodeChef</a></h4>
+              <ul>
+                <a><b>4 star</b> in HackerRank</a>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <h3 class="edu"><b>Indian Institute of Technology Bombay' 26</b>
+                <a class="link" href="https://www.iitb.ac.in/" target="_blank">&#x2197 </a>
+              </h3>
+              <h3 class="edu">Ex-Resonite 
+                <a class="link" href="https://www.resonance.ac.in " target="_blank" >&#x2197 </a>
+              </h3>
+              <h3 class="edu">
+                GPS'22
+                <a class="link" href="https://www.facebook.com/globalschoolkota/ " target="_blank" >&#x2197 </a>
+              </h3>
+            </li>
+          </ul>
+        </section>
+       
+        <div class="score">
+        <h2><b>Scores</b></h2>
+         <p><b>JEE-ADVANCED CRL 4563</b></p>
+         <p>IOQP - Scored above MAS</p>
+         <p>JEE-MAINS 99.25 %ile</p>             
+         <p>Class 12th 94.20%</p>
+         <p>Class 10th 95.20%</p>
+        </div>
+      
+    </main>
+
+    <section class="contact">
+      <h2 class="contact">Contact</h2>
+      <form>
+        <label for="name" style="display: inline-block; width: 250px;">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Shorya Sethia" required><br>
+        
+        <label for="email" style="display: inline-block; width: 250px;">Email Address :</label>
+        <input type="email" id="email" name="email" placeholder="shoryasethia4may@gmail.com" required><br>
+        
+        <label for="phone" style="display: inline-block; width: 250px;">Contact Number :</label>
+        <input type="tel" id="phone" name="phone" placeholder="7023411717" required><br>
+        
+        <label for="password" style="display: inline-block; width: 250px;">Password :</label>
+        <input type="password" id="password" name="password" placeholder="**********" required><br>
+
+        <label for="message" style="display: inline-block; width: 250px;">Message:</label>
+        <textarea id="message" class="msg" name="message" rows=4 placeholder="Type message here"  required></textarea><br>    
+        
+        <button type="submit" class="submit">Submit</button>
+      </form>
+    </section>
+  
+  </body>
+</html>
