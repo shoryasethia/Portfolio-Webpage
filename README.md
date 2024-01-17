@@ -1,4 +1,4 @@
-# assignment_1_soc
+# Portfolio Website
 Static Portfolio Webpage
 
 I first made a folder for storing files for html code and css styles. 
